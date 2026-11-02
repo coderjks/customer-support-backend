@@ -1,0 +1,5 @@
+[
+  {"query": "how do I reset my password", "expected_article_id": "a1"},
+  {"query": "where is my refund", "expected_article_id": "a2"},
+  {"query": "rate limit on ticket api", "expected_article_id": "a3"}
+]

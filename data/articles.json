@@ -1,0 +1,5 @@
+[
+  {"id": "a1", "title": "Resetting your password", "body": "Use the account settings page, choose reset password, and follow the emailed link within 30 minutes."},
+  {"id": "a2", "title": "Refund policy", "body": "Refunds are issued within 5 business days for charges made in the last 30 days. Contact billing with the order id."},
+  {"id": "a3", "title": "API rate limits", "body": "The ticket API allows 100 requests per minute per key. Exceeding the limit returns 429 with a retry-after header."}
+]

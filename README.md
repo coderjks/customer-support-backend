@@ -33,3 +33,6 @@ pytest -q
 Skipped tests mark work for later tickets — implement the ticket to
 unskip them. Do not commit secrets; the evaluation pipeline fails any
 diff containing secret patterns.
+
+
+I want to update the ticket for reference PR

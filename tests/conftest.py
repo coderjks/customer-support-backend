@@ -18,7 +18,7 @@ def client(monkeypatch):
     from sqlalchemy import create_engine
     from sqlalchemy.orm import sessionmaker
 
-    engine = create_engine(f"sqlite:///{tmp.name}", connect_args={"check_same_thread": False"})
+    engine = create_engine(f"sqlite:///{tmp.name}", connect_args={"check_same_thread": False})
     testing_session = sessionmaker(bind=engine, autoflush=False, autocommit=False)
     db_module.Base.metadata.create_all(bind=engine)
 
